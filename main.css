@@ -68,18 +68,16 @@ header{
     text-align: center;
 }
 
-span {
-    margin-top: 1em;
-    margin-right: .5em ;
-}
 
-section {
-    padding: 4em 2em;
+
+div {
+    padding: 1em 1em;
     text-align: center;
 }
 
-.featured {
-    position: relativej;
+.location {
+    position: relative;
+    background-color: #EED9FF;
 }
 
 .subtitle {
@@ -100,9 +98,9 @@ section {
 .featured-desc {
     color: black;
     font-size: .85em;
-    margin-top: 3em;
+    margin-top: 0;
     font-size: .9em;
-    line-height: 1.8em;
+    line-height: 1em;
     font-weight: 500;
 }
 
