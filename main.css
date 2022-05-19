@@ -9,11 +9,28 @@ body {
     font-family: 'Poppins', 'sans-serif';
 }
 
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 26px
+}
+
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 
+}
+
+p {
+    font-size: 24px;
 }
 
 a {
@@ -27,8 +44,16 @@ a:hover{
     color:blue
 }
 
-a::after{
-    color: #470065;
+a:after{
+    color:  blueviolet;
+}
+
+a:active{
+    color:red
+}
+
+a:link{
+    color:#470065
 }
 
 
@@ -37,6 +62,7 @@ html {
     font-family: 'Poppins', 'sans-serif'
 }
 
+/* stlyes for the the different icons */
 .icons{
     max-width: 25px;
     max-height: 25px;
@@ -45,7 +71,7 @@ html {
 
 
 
-
+/* container for the header */
 .nav-container {
     background-color: #EED9FF;
     
@@ -62,6 +88,7 @@ header{
     display: none;
 }
 
+/* container containing my profile picture */
 .hero {
     background-color:#D4AAF6 ;
     color:#470065;
@@ -70,67 +97,28 @@ header{
     padding: 4em;
 }
 
-.meet {
-    display: flex;
-    margin: 0 auto;
-    width: 200px ;
-    font-weight: bold;
-    text-align: center;
-}
-
-
-
 div {
     padding: 1em 1em;
     text-align: center;
 }
+
+/* adjusts the picture of the map */
 
 .location {
     position: relative;
     background-color: #EED9FF;
 }
 
-.subtitle {
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: .2em;
-    font-size: .85em;
-}
-
-.featured-title {
-    color: white; 
-    font-weight: bold;
-    font-size: 1.3em;
-    margin-top: -.4em;
-    display: block;
-}
+/* adjusts the font and spacing of the text beneath the goal, skills, and interests sections */
 
 .featured-desc {
     color: black;
-    font-size: .85em;
-    margin-top: 0;
-    font-size: .9em;
-    line-height: 1em;
-    font-weight: 500;
+    font-size: 24px;
+    margin-top: .1em;
+   
+    
 }
 
-.skills {
-    background-color: #D4AAF6;
-}
-
-
-
-.icon-container{
-    height:100px;
-    display: grid;
-    place-content: center;
-    margin: 0 auto;
-    background-color: white;
-    padding: 1em;
-    border-radius: 1em;
-    margin-bottom: .75em;
-
-}
 
 footer {
     text-align: center;
